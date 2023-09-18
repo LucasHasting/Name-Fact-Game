@@ -1,9 +1,12 @@
+// waits for the document to be ready
 $(document).ready(click_button)
 
+// function used to click the button
 function click_button(){
   $("#button").on("click", button);
 }
 
+// main function
 function button() {
   // get name
   let name = $("#name").val();
@@ -16,6 +19,7 @@ function button() {
   $("#fact").text("Fun fact: an anagram of your name is " + anagram);
 }
 
+// get the value/score of a name
 function get_value(name) {
   let value = 0;
   name = name.toLowerCase();
@@ -27,6 +31,7 @@ function get_value(name) {
   return value;
 }
 
+// uses logic to decide the spirit animal
 function decide_spirit_animal(value) {
   let text = "";
 
@@ -52,6 +57,7 @@ function decide_spirit_animal(value) {
   return text;
 }
 
+// gets the anagram of the name
 function get_fact(score, name) {
   let anagram = name;
   anagram = anagram.toLowerCase();
