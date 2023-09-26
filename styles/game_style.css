@@ -1,27 +1,29 @@
 @import url("swap.css");
 
 body {
-    background-image: url(../images/background.png);
-    background-size: cover;
+  background-image: url(../images/background.png);
+  background-size: cover;
 }
 
 button {
-    color: black;
-    font-family: papyrus;
+  color: black;
+  font-family: papyrus;
 }
 
 #name {
-    color: black;
+  color: black;
 }
 
 * {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
+}
+
+a {
+  color: yellow;
 }
 
 .bordered {
-    text-shadow: -1px 1px 0 #000,
-                          1px 1px 0 #000,
-                         1px -1px 0 #000,
-                        -1px -1px 0 #000;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
 }
